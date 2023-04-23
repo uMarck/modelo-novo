@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #320d3c;
+    background-color:#320d3c;
     overflow-x: hidden;
 }
 
@@ -18,7 +18,18 @@ $font: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
 header {
     background-color: indigo;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-family: $font;
+        margin: 0 2rem 0 2rem;
+    }
     img {
         width: 450px;
     }
@@ -105,7 +116,7 @@ header {
 .container-3 {
     user-select: none;
     height: 100vh;
-    background-image: linear-gradient(#320d3c, black);
+    background-color:#320d3c;
     #text {
         text-align: center;
         color: white;
@@ -159,7 +170,7 @@ header {
 
 .container-4 {
     height: 100vh;
-    background-image: linear-gradient(black, #320d3c);
+    background-color:#320d3c;;
 
     h1 {
         text-align: center;
@@ -218,7 +229,7 @@ header {
 }
 
 .container-5 {
-    background-image: linear-gradient(#320d3c, black);
+    background-color:#320d3c;
     height: 100vh;
     width: 100%;
     #infos {
@@ -289,7 +300,7 @@ header {
 
 .container-6 {
     height: 100vh;
-    background-color: black;
+    background-color:#320d3c;
     text-align: center;
 
     h2 {
@@ -322,8 +333,8 @@ header {
     
     // Styling
     .slider {
-        background: rgb(0, 0, 0);
-        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        background-color:#320d3c;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0);
         height: 455px;
         margin: auto;
         overflow:hidden;
@@ -477,6 +488,9 @@ header {
     header {
         img {
             width: 355px;
+        }
+        .menu {
+            display: none;
         }
     }
 
@@ -670,6 +684,9 @@ header {
         img {
             width: 355px;
         }
+        .menu {
+            display: none;
+        }
     }
 
     .container {
@@ -848,6 +865,9 @@ header {
 
 @media (max-width: 390px) {
     header {
+        .menu {
+            display: none;
+        }
         img {
             width: 355px;
         }
@@ -1045,6 +1065,9 @@ header {
         width: auto;
         img {
             width: 305px;
+        }
+        .menu {
+            display: none;
         }
     }
 
