@@ -251,7 +251,8 @@ header img {
   margin: auto;
 }
 .container-5 .pay #pagamentos #imgs {
-  padding-top: 0.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 5.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -268,6 +269,7 @@ header img {
   font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
   font-weight: bolder;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .container-6 {
@@ -337,7 +339,7 @@ header img {
   color: white;
   text-align: center;
   font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: bolder;
 }
 
@@ -434,6 +436,162 @@ header img {
   padding: 1rem 0 1rem 0;
 }
 
+@media (max-width: 432px) {
+  header img {
+    width: 355px;
+  }
+  .container {
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .container #texto {
+    padding-top: 8rem;
+    line-height: 35px;
+    max-width: 390px;
+    font-size: 10px;
+  }
+  .container-2 {
+    margin: auto;
+    text-align: center;
+  }
+  .container-2 #oque {
+    padding-top: 0.5rem;
+  }
+  .container-2 #dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420.5px;
+    margin: auto;
+  }
+  .container-2 #dois #seguro {
+    padding-top: 1.5rem;
+  }
+  .container-3 {
+    height: auto;
+    width: 100%;
+  }
+  .container-3 #text {
+    padding-top: 2rem;
+  }
+  .container-3 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-3 #cards #card #link {
+    width: 353.5px;
+  }
+  .container-3 #cards #card img {
+    width: 350px;
+  }
+  .container-4 {
+    height: auto;
+  }
+  .container-4 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-4 #cards #card {
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .container-4 #aviso {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+  }
+  .container-5 {
+    height: auto;
+  }
+  .container-5 .info #infos h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .container-5 .pay #pagamentos h1 {
+    font-size: 25px;
+    max-width: 355px;
+    border-bottom: 1px solid indigo;
+  }
+  .container-5 .pay #pagamentos #imgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container-5 .pay #pagamentos #imgs img {
+    width: 255px;
+    margin: 2.2rem;
+  }
+  .container-6 {
+    height: 100vh;
+  }
+  .container-6 h2 {
+    max-width: 405px;
+    text-align: center;
+    margin: auto;
+  }
+  .container-6 .slider {
+    padding-top: 1.5rem;
+    width: 412.5px;
+  }
+  .container-6 #text {
+    padding-top: 5.5rem;
+  }
+  .container-7 {
+    height: auto;
+  }
+  .container-7 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-7 #cards img {
+    width: 400px;
+  }
+  .container-7 #link {
+    width: 413px;
+  }
+  .container-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .container-8 details {
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0.8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 0, 202);
+    padding: 0.5em 0.5em 0;
+    font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+  }
+  .container-8 details summary {
+    font-weight: bold;
+    font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+    font-size: 22px;
+    width: auto;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  #disqus_thread {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+}
 @media (max-width: 414px) {
   header img {
     width: 355px;
@@ -501,6 +659,167 @@ header img {
   .container-5 .pay #pagamentos h1 {
     font-size: 25px;
     max-width: 355px;
+    border-bottom: 1px solid indigo;
+  }
+  .container-5 .pay #pagamentos #imgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container-5 .pay #pagamentos #imgs img {
+    width: 255px;
+    margin: 2.2rem;
+  }
+  .container-6 {
+    height: 100vh;
+  }
+  .container-6 h2 {
+    max-width: 405px;
+    text-align: center;
+    margin: auto;
+  }
+  .container-6 .slider {
+    padding-top: 1.5rem;
+    width: 412.5px;
+  }
+  .container-6 #text {
+    padding-top: 5.5rem;
+  }
+  .container-7 {
+    height: auto;
+  }
+  .container-7 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-7 #cards img {
+    width: 400px;
+  }
+  .container-7 #link {
+    width: 413px;
+  }
+  .container-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .container-8 details {
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0.8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 0, 202);
+    padding: 0.5em 0.5em 0;
+    font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+  }
+  .container-8 details summary {
+    font-weight: bold;
+    font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+    font-size: 22px;
+    width: auto;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  #disqus_thread {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  header img {
+    width: 355px;
+  }
+  .container {
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .container #texto {
+    padding-top: 8rem;
+    line-height: 35px;
+    max-width: 380px;
+    font-size: 10px;
+  }
+  .container-2 {
+    margin: auto;
+    text-align: center;
+  }
+  .container-2 #oque {
+    padding-top: 1.5rem;
+  }
+  .container-2 #dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 389px;
+  }
+  .container-2 #dois #seguro {
+    padding-top: 2.5rem;
+  }
+  .container-3 {
+    height: auto;
+    width: 100%;
+  }
+  .container-3 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-3 #cards #card {
+    width: 390px;
+  }
+  .container-3 #cards #card #link {
+    width: 353.5px;
+  }
+  .container-3 #cards #card img {
+    width: 350px;
+  }
+  .container-4 {
+    height: auto;
+  }
+  .container-4 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-4 #cards #card {
+    width: 390px;
+    padding: 0;
+    margin-bottom: 2rem;
+    transition: 0.2s;
+  }
+  .container-4 #cards #card:hover {
+    transform: scale(1.01);
+  }
+  .container-4 #aviso {
+    width: 350px;
+    margin: auto;
+  }
+  .container-5 {
+    height: auto;
+  }
+  .container-5 .info {
+    padding-top: 2rem;
+  }
+  .container-5 .info #infos h1 {
+    text-align: center;
+    font-size: 19px;
+  }
+  .container-5 .pay #pagamentos h1 {
+    font-size: 25px;
+    width: 305px;
     border-bottom: 1px solid indigo;
   }
   .container-5 .pay #pagamentos #imgs {
