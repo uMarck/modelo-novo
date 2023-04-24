@@ -26,6 +26,28 @@ header {
   justify-content: space-around;
   text-align: center;
 }
+header #itens {
+  position: fixed;
+  display: none;
+  top: 100px;
+  right: 10px;
+  background-color: black;
+}
+header #itens ul {
+  width: 400px;
+  padding: 0.5rem;
+}
+header #itens ul li {
+  padding: 2rem;
+  list-style: none;
+  border: 2px solid white;
+  margin: 0.5rem;
+}
+header #itens ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+}
 header .menu a {
   text-decoration: none;
   color: white;
@@ -35,8 +57,48 @@ header .menu a {
 header img {
   width: 450px;
 }
+header .menu-bg {
+  display: none;
+}
+header .menu-bg img {
+  width: 50px;
+  filter: invert(1);
+}
+
+.teste {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.teste #text {
+  color: white;
+  font-family: "Montserrat", "Poppins", "Oswald", Verdana, Tahoma;
+}
+.teste #text h1 {
+  margin-bottom: 1rem;
+}
+.teste #text p {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 35px;
+}
+.teste img {
+  transition: 0.2s;
+  filter: drop-shadow(1px 1px 10px black);
+}
+.teste img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(1px 5px 15px black);
+}
 
 .container {
+  display: none;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -453,6 +515,28 @@ header img {
   header .menu {
     display: none;
   }
+  .teste {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .teste #text {
+    padding-top: 20px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .teste #text h1 {
+    font-size: 20px;
+  }
+  .teste #text p {
+    line-height: 19px;
+  }
+  .teste img {
+    width: 300px;
+  }
   .container {
     background-position: top;
     background-repeat: no-repeat;
@@ -612,6 +696,27 @@ header img {
   header .menu {
     display: none;
   }
+  .teste {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .teste #text {
+    padding-top: 1.5rem;
+  }
+  .teste #text h1 {
+    font-size: 20px;
+  }
+  .teste #text p {
+    font-size: 15px;
+    line-height: 26.5px;
+  }
+  .teste img {
+    margin-top: -25px;
+  }
   .container {
     background-position: top;
     background-repeat: no-repeat;
@@ -760,6 +865,13 @@ header img {
   }
   header img {
     width: 355px;
+  }
+  .teste #text h1 {
+    font-size: 25px;
+  }
+  .teste #text p {
+    font-size: 13.5px;
+    line-height: 20px;
   }
   .container {
     background-position: top;
@@ -927,6 +1039,9 @@ header img {
   }
   header .menu {
     display: none;
+  }
+  .teste #text {
+    padding-top: 10px;
   }
   .container {
     background-position: top;
