@@ -985,14 +985,21 @@ header {
 
     .teste {
         #text {
+            width: 380px;
+            margin: auto;
+            text-align: center;
             h1 {
                 font-size: 25px;
             }
 
             p {
                 font-size: 13.5px;
-                line-height: 20px;
+                line-height: 22.5px;
             }
+        }
+        img {
+            padding-top: 2rem;
+            width: 405px;
         }
     }
 
@@ -1182,6 +1189,7 @@ header {
         text-align: center;
     }
 }
+
 // IPHONE 8
 @media (max-width: 375px) {
     header {
@@ -1194,8 +1202,26 @@ header {
         }
     }
     .teste {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: center;
         #text {
-            padding-top: 10px;
+            text-align: center;
+            padding-top: 2rem;
+            width: 370px;
+            margin: auto;
+
+            p {
+                line-height: 30px;
+            }
+        }
+
+        img {
+            width: 350px;
+            padding-top: 0.5rem;
         }
     }
 
@@ -1432,5 +1458,56 @@ header {
         width: 350px;
         margin: auto;
         text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .teste {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        #text {
+            width: 335px;
+            margin: auto;
+            text-align: center;
+            h1 {
+                font-size: 22px;
+            }
+
+            p {
+                line-height: 20px;
+                font-size: 13.2px;
+            }
+        }
+        img {
+            padding-top: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .teste {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        #text {
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            padding-top: 10px;
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 11.5px;
+                line-height: 18.5px;
+            }
+        }
+        img {
+            width: 255px;
+            margin-top: -30px;
+        }
     }
 }
