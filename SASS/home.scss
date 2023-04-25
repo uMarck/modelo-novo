@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color:#320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     overflow-x: hidden;
 }
 
@@ -72,7 +72,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,7 +101,7 @@ header {
 
 .container {
     display: none;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -126,7 +126,7 @@ header {
 
 .container-2 {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,7 +181,7 @@ header {
 .container-3 {
     user-select: none;
     height: 100vh;
-    background-color:#320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     #text {
         text-align: center;
         color: white;
@@ -235,7 +235,7 @@ header {
 
 .container-4 {
     height: 100vh;
-    background-color:#320d3c;;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);;
 
     h1 {
         text-align: center;
@@ -262,11 +262,6 @@ header {
             }
             img {
                 border-radius: 55px 55px 0px 0px;
-                filter: brightness(0.5);
-                transition: 1s;
-                &:hover {
-                    filter: brightness(1.5);
-                }
             }
 
             a {
@@ -294,7 +289,7 @@ header {
 }
 
 .container-5 {
-    background-color:#320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     height: 100vh;
     width: 100%;
     #infos {
@@ -365,7 +360,7 @@ header {
 
 .container-6 {
     height: 100vh;
-    background-color:#320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     text-align: center;
 
     h2 {
@@ -398,7 +393,7 @@ header {
     
     // Styling
     .slider {
-        background-color:#320d3c;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
         box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0);
         height: 455px;
         margin: auto;
@@ -451,7 +446,7 @@ header {
 
 .container-7 {
     height: 100vh;
-    background-color: #320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     margin: auto;
     h3 {
         padding-top: 1.5rem;
@@ -498,7 +493,7 @@ header {
 }
 
 .container-8 {
-    background-color: #320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     color: white;
     height: 100vh;
 
@@ -545,7 +540,7 @@ header {
 #disqus_thread {
     width: 900px;
     margin: auto;
-    background-color: #320d3c;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
     padding: 1rem 0 1rem 0;
 }
 

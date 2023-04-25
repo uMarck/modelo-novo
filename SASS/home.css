@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   overflow-x: hidden;
 }
 
@@ -71,7 +71,7 @@ header .menu-bg img {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,7 +99,7 @@ header .menu-bg img {
 
 .container {
   display: none;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/PRIMEIRO\ CONTAINER.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,7 +123,7 @@ header .menu-bg img {
 
 .container-2 {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,7 +176,7 @@ header .menu-bg img {
      -moz-user-select: none;
           user-select: none;
   height: 100vh;
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
 }
 .container-3 #text {
   text-align: center;
@@ -225,7 +225,7 @@ header .menu-bg img {
 
 .container-4 {
   height: 100vh;
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
 }
 .container-4 h1 {
   text-align: center;
@@ -252,11 +252,6 @@ header .menu-bg img {
 }
 .container-4 #cards #card img {
   border-radius: 55px 55px 0px 0px;
-  filter: brightness(0.5);
-  transition: 1s;
-}
-.container-4 #cards #card img:hover {
-  filter: brightness(1.5);
 }
 .container-4 #cards #card a {
   text-decoration: none;
@@ -279,7 +274,7 @@ header .menu-bg img {
 }
 
 .container-5 {
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   height: 100vh;
   width: 100%;
 }
@@ -346,7 +341,7 @@ header .menu-bg img {
 
 .container-6 {
   height: 100vh;
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   text-align: center;
 }
 .container-6 h2 {
@@ -372,7 +367,7 @@ header .menu-bg img {
   }
 }
 .container-6 .slider {
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0);
   height: 455px;
   margin: auto;
@@ -417,7 +412,7 @@ header .menu-bg img {
 
 .container-7 {
   height: 100vh;
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   margin: auto;
 }
 .container-7 h3 {
@@ -462,7 +457,7 @@ header .menu-bg img {
 }
 
 .container-8 {
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   color: white;
   height: 100vh;
 }
@@ -504,7 +499,7 @@ header .menu-bg img {
 #disqus_thread {
   width: 900px;
   margin: auto;
-  background-color: #320d3c;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
   padding: 1rem 0 1rem 0;
 }
 
