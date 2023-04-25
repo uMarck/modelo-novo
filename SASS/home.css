@@ -13,7 +13,8 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/SEGUNDO\ CONTAINER.jpg);
+  background-position: center;
   overflow-x: hidden;
 }
 
@@ -497,10 +498,20 @@ header .menu-bg img {
 }
 
 #disqus_thread {
-  width: 900px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/TERCEIRO\ CONTAINER.jpg);
+  max-width: 900px;
+  margin: auto;
   padding: 1rem 0 1rem 0;
+}
+#disqus_thread .post-content .post-message p {
+  color: white;
+}
+#disqus_thread .embed-refresh-v2 .comment__header .author {
+  color: white;
 }
 
 @media (max-width: 432px) {
